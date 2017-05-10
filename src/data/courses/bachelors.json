@@ -1,0 +1,198 @@
+[
+    {
+        "courseCode": "F2001",
+        "courseName": "Bachelor of Architectural Design"
+    },
+    {
+        "courseCode": "A2000",
+        "courseName": "Bachelor of Arts"
+    },
+    {
+        "courseCode": "A2006",
+        "courseName": "Bachelor of Arts and Social Sciences"
+    },
+    {
+        "courseCode": "M2003",
+        "courseName": "Bachelor of Biomedical Science"
+    },
+    {
+        "courseCode": "M3004",
+        "courseName": "Bachelor of Biomedical Science Advanced (Honours)"
+    },
+    {
+        "courseCode": "B2000",
+        "courseName": "Bachelor of Business"
+    },
+    {
+        "courseCode": "B2007",
+        "courseName": "Bachelor of Business Administration"
+    },
+    {
+        "courseCode": "B2026",
+        "courseName": "Bachelor of Business and Commerce"
+    },
+    {
+        "courseCode": "4415",
+        "courseName": "Bachelor of Business Science"
+    },
+    {
+        "courseCode": "4413",
+        "courseName": "Bachelor of Business Science (Accounting)"
+    },
+    {
+        "courseCode": "B2003",
+        "courseName": "Bachelor of Business Specialist"
+    },
+    {
+        "courseCode": "B2001",
+        "courseName": "Bachelor of Commerce"
+    },
+    {
+        "courseCode": "B2004",
+        "courseName": "Bachelor of Commerce Specialist"
+    },
+    {
+        "courseCode": "A2007",
+        "courseName": "Bachelor of Communication and Media Studies"
+    },
+    {
+        "courseCode": "4307",
+        "courseName": "Bachelor of Computer and Information Sciences"
+    },
+    {
+        "courseCode": "C2001",
+        "courseName": "Bachelor of Computer Science"
+    },
+    {
+        "courseCode": "C3001",
+        "courseName": "Bachelor of Computer Science Advanced (Honours)"
+    },
+    {
+        "courseCode": "F2002",
+        "courseName": "Bachelor of Design"
+    },
+    {
+        "courseCode": "D3001",
+        "courseName": "Bachelor of Education (Honours)"
+    },
+    {
+        "courseCode": "D2002",
+        "courseName": "Bachelor of Education in Early Childhood"
+    },
+    {
+        "courseCode": "E3001",
+        "courseName": "Bachelor of Engineering (Honours)"
+    },
+    {
+        "courseCode": "F2003",
+        "courseName": "Bachelor of Fine Art"
+    },
+    {
+        "courseCode": "S2009",
+        "courseName": "Bachelor of Food Science and Technology"
+    },
+    {
+        "courseCode": "A2001",
+        "courseName": "Bachelor of Global Studies"
+    },
+    {
+        "courseCode": "M2002",
+        "courseName": "Bachelor of Health Sciences"
+    },
+    {
+        "courseCode": "C2000",
+        "courseName": "Bachelor of Information Technology"
+    },
+    {
+        "courseCode": "F3001",
+        "courseName": "Bachelor of Interior Architecture (Honours)"
+    },
+    {
+        "courseCode": "L3001",
+        "courseName": "Bachelor of Laws (Honours)"
+    },
+    {
+        "courseCode": "S2008",
+        "courseName": "Bachelor of Medical Bioscience"
+    },
+    {
+        "courseCode": "4533",
+        "courseName": "Bachelor of Medicine and Bachelor of Surgery (Honours)"
+    },
+    {
+        "courseCode": "A2003",
+        "courseName": "Bachelor of Music"
+    },
+    {
+        "courseCode": "M2006",
+        "courseName": "Bachelor of Nursing"
+    },
+    {
+        "courseCode": "4530",
+        "courseName": "Bachelor of Nutrition and Dietetics (Honours)"
+    },
+    {
+        "courseCode": "M2001",
+        "courseName": "Bachelor of Nutrition Science"
+    },
+    {
+        "courseCode": "M3001",
+        "courseName": "Bachelor of Occupational Therapy (Honours)"
+    },
+    {
+        "courseCode": "P2001",
+        "courseName": "Bachelor of Pharmaceutical Science"
+    },
+    {
+        "courseCode": "P3002",
+        "courseName": "Bachelor of Pharmaceutical Science Advanced (Honours)"
+    },
+    {
+        "courseCode": "P3001",
+        "courseName": "Bachelor of Pharmacy (Honours)"
+    },
+    {
+        "courseCode": "M3002",
+        "courseName": "Bachelor of Physiotherapy (Honours)"
+    },
+    {
+        "courseCode": "M3003",
+        "courseName": "Bachelor of Physiotherapy Advanced - Research (Honours)"
+    },
+    {
+        "courseCode": "M2004",
+        "courseName": "Bachelor of Psychological Science"
+    },
+    {
+        "courseCode": "3863",
+        "courseName": "Bachelor of Psychological Science and Business"
+    },
+    {
+        "courseCode": "M3005",
+        "courseName": "Bachelor of Psychology (Honours)"
+    },
+    {
+        "courseCode": "4502",
+        "courseName": "Bachelor of Public Health"
+    },
+    {
+        "courseCode": "M3006",
+        "courseName": "Bachelor of Radiography and Medical Imaging (Honours)"
+    },
+    {
+        "courseCode": "S2000",
+        "courseName": "Bachelor of Science"
+    },
+    {
+        "courseCode": "S3001",
+        "courseName": "Bachelor of Science Advanced - Global Challenges (Honours)"
+    },
+    {
+        "courseCode": "S3002",
+        "courseName": "Bachelor of Science Advanced - Research (Honours)"
+    },
+    {
+        "courseCode": "4086",
+        "courseName": "Bachelor of Social Science"
+    }
+]

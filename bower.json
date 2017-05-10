@@ -1,0 +1,24 @@
+{
+  "name": "monPlan",
+  "description": "A Monash University Degree Planner.",
+  "main": "main.js",
+  "authors": [
+    "monPlan"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Monash",
+    "Uni",
+    "degree",
+    "course",
+    "planner"
+  ],
+  "homepage": "https://github.com/MonashUnitPlanner/monPlan",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

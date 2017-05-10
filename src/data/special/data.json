@@ -1,0 +1,1002 @@
+[
+   {
+      "category":"SPECIALISATION",
+      "title":"Advanced computer science",
+      "code":"COMPSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Mathematics",
+      "code":"MATHS01"
+   },
+   {
+      "category":"MINOR",
+      "title":"Mathematical statistics",
+      "code":"MTHSTAT02"
+   },
+   {
+      "category":"SPECIALISATION",
+      "title":"Data science",
+      "code":"DATASCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Accountancy",
+      "code":"MACCNTCY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Accounting",
+      "code":"ACCOUNTG01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Actuarial studies",
+      "code":"ACTRLSTD01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Ancient cultures",
+      "code":"ANCNCULT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Anthropology",
+      "code":"ANTHROPL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Applied economics",
+      "code":"MAPPLECO01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Applied mathematics",
+      "code":"APPLMTH01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Applied microbiology",
+      "code":"APMICBIO01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Astrophysics",
+      "code":"ASTROPHY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Atmospheric science",
+      "code":"ATMOSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Banking and finance",
+      "code":"BUSBKFIN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Banking and financial management",
+      "code":"MBNKFINM01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Behavioural commerce",
+      "code":"BEHAVCOM01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Biochemistry",
+      "code":"BIOCHEM01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Biotechnology",
+      "code":"BIOTECH01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business analytics",
+      "code":"MBUSANYL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business information systems",
+      "code":"ITBIS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business law",
+      "code":"BUSLAW01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business law and taxation",
+      "code":"MBUSLWTX01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business management",
+      "code":"BUSMNGMT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business management and strategy",
+      "code":"BSMGTSTR01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Business statistics",
+      "code":"BUSSTATS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Chemistry",
+      "code":"CHEMSTRY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Chinese studies",
+      "code":"CHINESE01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Communication",
+      "code":"MCOMMS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Communications and media studies",
+      "code":"COMMUNIC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Computer networks and security",
+      "code":"COMNTSEC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Criminology",
+      "code":"CRIMINOL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Developmental biology",
+      "code":"DEVBIOL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Ecology and conservation biology",
+      "code":"ECOLOGY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Econometrics",
+      "code":"ECONOMTR01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Econometrics and business statistics",
+      "code":"MECNMTCS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Economics",
+      "code":"ECONOMIC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Economics and business strategy",
+      "code":"ECBUSSTR01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"English as an international language",
+      "code":"ENGINTLN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Film and screen studies",
+      "code":"FILMSCRN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"French studies",
+      "code":"FRENCHST01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Games development",
+      "code":"GAMESDEV01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Gender studies",
+      "code":"MGENDRST01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Genetics",
+      "code":"GENETICS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Geographical science",
+      "code":"GEOGSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Geosciences",
+      "code":"GEOSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"German studies",
+      "code":"GERMANST01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Global studies",
+      "code":"MGLBLSTD01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"History",
+      "code":"HISTORY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Human geography",
+      "code":"HUMNGEOG01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Human pathology",
+      "code":"HUMPATH01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Human resource management",
+      "code":"HRMNGMT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Human rights",
+      "code":"HUMNRGHT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Immunology",
+      "code":"IMMUNOL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Indigenous cultures and histories",
+      "code":"INDCULHI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Indonesian studies",
+      "code":"INDOSTUD01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"International business",
+      "code":"INTBUS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"International business management",
+      "code":"MINTBSMN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"International relations",
+      "code":"INTLREL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"International studies",
+      "code":"INTLSTDY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Italian studies",
+      "code":"ITALIAN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Japanese studies",
+      "code":"JAPANESE01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Journalism",
+      "code":"JOURNLSM01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Korean studies",
+      "code":"KOREAN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Linguistics",
+      "code":"LINGSTIC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Literary studies",
+      "code":"LITRYSTD01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Management",
+      "code":"MMNGT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Management studies",
+      "code":"MNGTSTUD01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Marketing",
+      "code":"BUSMRKTG01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Marketing and communication",
+      "code":"MKTGCOMS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Marketing science",
+      "code":"MRKTGSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Materials science",
+      "code":"MATSSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Mathematical statistics",
+      "code":"MTHSTAT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Medicinal chemistry",
+      "code":"MMEDCHEM01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Microbiology",
+      "code":"MICROBIO01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Multimedia development",
+      "code":"MLTIMEDV01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Music",
+      "code":"MUSIC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Pharmacology",
+      "code":"PHARMAC01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Philosophy",
+      "code":"PHILSPHY01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Physics",
+      "code":"PHYSICS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Physiology",
+      "code":"PHYSIOL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Plant sciences",
+      "code":"PLNTSCI01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Politics",
+      "code":"POLITICS01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Psychology",
+      "code":"PSYCHOL01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Pure mathematics",
+      "code":"MATPURE01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Religious studies",
+      "code":"RELIGION01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Sociology",
+      "code":"SOCIOLG01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Software development",
+      "code":"SFTWRDEV01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Spanish and Latin American studies",
+      "code":"SPANLATN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Sports management",
+      "code":"SPRTMNGT01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Strategic marketing",
+      "code":"MSTRMKTG01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Sustainability",
+      "code":"SUSTAIN01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Taxation",
+      "code":"TAXATION01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Theatre",
+      "code":"THEATRE01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Tropical environmental biology",
+      "code":"TRENVBIO01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Writing",
+      "code":"MWRITING01"
+   },
+   {
+      "category":"MAJOR",
+      "title":"Zoology",
+      "code":"ZOOLOGY01"
+   },
+   {
+      "category":"MINOR",
+      "title":"Accounting",
+      "code":"ACCOUNTG02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Actuarial studies",
+      "code":"ACTRLSTD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Ancient cultures",
+      "code":"ANCNCULT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Anthropology",
+      "code":"ANTHROPL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Applied microbiology",
+      "code":"APMICBIO02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Astrophysics",
+      "code":"ASTROPHY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Atmospheric science",
+      "code":"ATMOSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Australia in the world",
+      "code":"AUSWRLD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Banking and finance",
+      "code":"BUSBKFIN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Behavioural commerce",
+      "code":"BEHAVCOM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Behavioural studies",
+      "code":"BEHVRSTD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Biochemistry",
+      "code":"BIOCHEM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Bioethics",
+      "code":"BIOETHIC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business analytics",
+      "code":"BUSANYL01"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business information systems",
+      "code":"ITBIS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business law",
+      "code":"BUSLAW02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business management",
+      "code":"BUSMNGMT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business management and strategy",
+      "code":"BSMGTSTR02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Business statistics",
+      "code":"BUSSTATS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Chemistry",
+      "code":"CHEMSTRY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Chinese studies",
+      "code":"CHINESE02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Communication",
+      "code":"MCOMMS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Communications and media studies",
+      "code":"COMMUNIC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Computer networks and security",
+      "code":"COMNTSEC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Creative computing",
+      "code":"CRTVCOMP01"
+   },
+   {
+      "category":"MINOR",
+      "title":"Criminology",
+      "code":"CRIMINOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Cybersecurity",
+      "code":"CYBERSEC01"
+   },
+   {
+      "category":"MINOR",
+      "title":"Data science",
+      "code":"DATASCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Developmental biology",
+      "code":"DEVBIOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Ecology and conservation biology",
+      "code":"ECOLOGY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Econometrics",
+      "code":"ECONOMTR02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Economics",
+      "code":"ECONOMIC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Economics and business strategy",
+      "code":"ECBUSSTR02"
+   },
+   {
+      "category":"MINOR",
+      "title":"English as an international language",
+      "code":"ENGINTLN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Film and screen studies",
+      "code":"FILMSCRN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Finance",
+      "code":"FINANCE02"
+   },
+   {
+      "category":"MINOR",
+      "title":"French studies",
+      "code":"FRENCHST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Games design",
+      "code":"GAMESDES02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Games development",
+      "code":"GAMESDEV02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Gender studies",
+      "code":"MGENDRST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Genetics",
+      "code":"GENETICS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Geographical science",
+      "code":"GEOGSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Geosciences",
+      "code":"GEOSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"German studies",
+      "code":"GERMANST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Global studies",
+      "code":"MGLBLSTD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Health administration",
+      "code":"HLTHADMN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"History",
+      "code":"HISTORY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Holocaust and genocide studies",
+      "code":"HOLGENST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Human geography",
+      "code":"HUMNGEOG02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Human resource management",
+      "code":"HRMNGMT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Human rights",
+      "code":"HUMNRGHT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Immunology",
+      "code":"IMMUNOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Indigenous cultures and histories",
+      "code":"INDCULHI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Indonesian studies",
+      "code":"INDOSTUD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Information and society",
+      "code":"INFOSOC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"International business",
+      "code":"INTBUS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"International relations",
+      "code":"INTLREL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"International studies",
+      "code":"INTLSTDY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Islamic studies",
+      "code":"ISLMSTUD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"IT for business",
+      "code":"ITFORBUS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Italian studies",
+      "code":"ITALIAN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Japanese studies",
+      "code":"JAPANESE02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Jewish studies",
+      "code":"JEWISHST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Journalism",
+      "code":"JOURNLSM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Journalism studies",
+      "code":"MJOURNSM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Korean studies",
+      "code":"KOREAN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Linguistics",
+      "code":"LINGSTIC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Literary studies",
+      "code":"LITRYSTD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Management studies",
+      "code":"MNGTSTUD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Marketing",
+      "code":"BUSMRKTG02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Marketing and communication",
+      "code":"MKTGCOMS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Marketing science",
+      "code":"MRKTGSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Materials science",
+      "code":"MATSSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Mathematics",
+      "code":"MATHS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Microbiology",
+      "code":"MICROBIO02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Mobile apps development",
+      "code":"MOBAPDEV02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Molecular biology",
+      "code":"MOLBIOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Multimedia development",
+      "code":"MLTIMEDV02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Music",
+      "code":"MUSIC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Performance",
+      "code":"PERFORM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Pharmacology",
+      "code":"PHARMAC02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Philosophy",
+      "code":"PHILSPHY02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Physics",
+      "code":"PHYSICS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Physiology",
+      "code":"PHYSIOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Plant sciences",
+      "code":"PLNTSCI02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Politics",
+      "code":"POLITICS02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Psychology",
+      "code":"PSYCHOL02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Religious studies",
+      "code":"RELIGION02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Screen studies",
+      "code":"MSCRNSTD02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Sociology",
+      "code":"SOCIOLG02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Software development",
+      "code":"SFTWRDEV02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Software engineering",
+      "code":"SFTWAREN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Spanish and Latin American studies",
+      "code":"SPANLATN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Sports management",
+      "code":"SPRTMNGT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Sustainability",
+      "code":"SUSTAIN02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Taxation",
+      "code":"TAXATION02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Theatre",
+      "code":"THEATRE02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Tourism",
+      "code":"TOURSM02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Tropical environmental biology",
+      "code":"TRENVBIO02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Ukrainian studies",
+      "code":"UKRAINST02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Web development",
+      "code":"WEBDEVT02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Writing",
+      "code":"MWRITING02"
+   },
+   {
+      "category":"MINOR",
+      "title":"Zoology",
+      "code":"ZOOLOGY02"
+   }
+]

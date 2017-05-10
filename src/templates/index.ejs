@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site Properties -->
+    <title>monPlan Alpha</title>
+
+    <!--JavaScript Sources-->
+    <% if(dist) { %>
+    <script src="./js/monplan.min.js" type="text/javascript"></script>
+    <% } else if(dev) { %>
+    <script src="./js/ext/ejs/ejs.js" type="text/javascript"></script>
+    <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script> <!--this library is here to piss someone off-->
+    <script src="./js/ext/semantic.min.js" type="text/javascript"></script>
+
+    <script src="./js/Unit.js" type="text/javascript"></script>
+    <script src="./js/TeachingPeriod.js" type="text/javascript"></script>
+    <script src="./js/CourseStructure.js" type="text/javascript"></script>
+    <script src="./js/monPlan.js" type="text/javascript"></script>
+    <script src="./js/search.js" type="text/javascript"></script>
+    <script src="./js/extras.js" type="text/javascript"></script>
+    <script src="./js/specialisation.js" type="text/javascript"></script>
+    <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
+    <% } %>
+
+    <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+
+</head>
+<body class="site">
+
+    <div class="ui top attached inverted stackable menu">
+        <div class="header item">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            monPlan Alpha
+        </div>
+        <div id="unitSearch" class="item">
+            <div class="ui search">
+                <div class="ui icon input">
+                    <input class="prompt" type="text" placeholder="Add Unit">
+                    <i class="search icon"></i>
+                </div>
+                <div class="results"></div>
+            </div>
+        </div>
+        <div id="creditCounter" class="item">
+            <div class="ui green large label">
+                Total Credits Earnt
+                <div id="credits" class="detail">0</div>
+            </div>
+          </div>
+        <div class="right menu">
+            <div id="displayMessage" class="ui item pop" data-title="Everything looks good" data-content="As you add units, we will inform you of any
+                conflicts, such as missing prerequisites.">
+                Status:  <span id="statusTag">OK</span> <i id="statusIcon" class="icon green checkmark"></i>
+            </div>
+            <div class="ui normal dropdown icon item">
+                <i class="info icon"></i>
+                <div class="menu">
+                    <h4 class="ui inverted header">Quick Links (for Devs)</h4>
+                    <a href="https://github.com/MonashUnitPlanner" target="_blank" class="item"><i class="github icon"></i>GitHub Project</a>
+                    <a href="https://monplan.slack.com" class="item"><i class="slack icon"></i>Slack (for Devs)</a>
+                    <h4 class="ui inverted header">About</h4>
+                    <a href="https://gitreports.com/issue/MonashUnitPlanner/monPlan" target="_blank"  class="item"><i class="bug icon"></i> Submit an Issue</a>
+                    <a href="https://monashunitplanner.github.io" target="_blank"  class="item"><i class="info icon"></i>The Project</a>
+                    <a href="https://goo.gl/TO6Z3M" target="_blank" class="item"><i class="users icon"></i> Join the Team</a>
+                    <h4 class="ui inverted header">Our Policies</h4>
+                    <a class="item" onClick="toggleToS()">Terms of Use</a>
+                    <a class="item" onClick="togglePrivacy()">Privacy Policy</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui main text container">
+        <div id="welcome" style="ui container">
+            <h1>Welcome to monPlan!</h1>
+            <p>monPlan allows you to plan your course structure whilst you are at
+                Monash University. We know that choosing units isn't particularly easy, so we've
+                designed a web app that you can use to simplify tasks.</p>
+                <p>Please enter your commencement and graduation year to get started.</p>
+                <div class="row">
+                    <form onsubmit="return false;" class="ui large form">
+                        <div class="ui raised segment">
+                            <div class="field">
+                                <div class="ui labeled input">
+                                    <div class="ui label">Commencement Year:</div>
+                                    <input id="startYr" type="text" placeholder="2016">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui labeled input">
+                                    <div class="ui label">Graduation Year:</div>
+                                    <input id="gradYr" type="text" placeholder="2018">
+                                </div>
+                            </div>
+                            <button id="startPlanning" class="ui green button">Start Planning <i class="right arrow icon"></i></button>
+                            <button id="startPlanningEmpty" class="ui button">Start with empty template</button>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="ui divider"></div>-->
+          </div>
+            <div class="row display-none">
+                <h3>Recommended Units</h3>
+
+            </div>
+            <!--<div class="ui divider"></div>-->
+            <div id="main" class="ui grid">
+              <div class="row">
+                <div id="addUnitMessage" class="ui message hide">
+                    <div class="header">
+                        Add unit
+                    </div>
+                    <p>Select an empty (blue) unit slot to add unit.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="ui stackable grid container">
+                  <div class="twelve wide column">
+                    <div class="ui container">
+                      <table id="fullTable" class="ui celled fixed table">
+                          <thead>
+                              <tr>
+                                  <th>Teaching Period</th>
+                                  <th>Unit</th>
+                                  <th>Unit</th>
+                                  <th>Unit</th>
+                                  <th>Unit</th>
+                              </tr>
+                          </thead>
+                          <tbody id="myTable">
+                          </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="four wide column">
+                    <div class="row">
+                      <h4>Current Degree</h4>
+                      <div id="courseSearch" class="item">
+                          <div class="ui search">
+                              <div class="ui icon input">
+                                  <input class="prompt" type="text" placeholder="Search Courses">
+                                  <i class="search icon"></i>
+                              </div>
+                              <div class="results"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h4>Major/Minor/Specialisation</h4>
+                      <div class="ui green large label">
+                          Total Specialisation Points Earnt
+                          <div id="specialisationPoints" class="detail">0</div>
+                      </div>
+                      <i>Minors - 0.5 points, Majors - 1 point. Maximum: 2 points</i>
+                      <div id="specialisationSearch" class="item">
+                          <div class="ui search">
+                              <div class="ui icon input">
+                                  <input class="prompt" type="text" placeholder="Search Courses">
+                                  <button class="ui primary button">OK</button>
+                              </div>
+                              <div class="results"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h4>Degree Requirements</h4>
+                      <table id="special" class="ui striped table">
+                        <tbody>
+                          <tr>
+                            <td>Core Units<td>
+                            <td><i class="icon grey checkmark box"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <button id="save" class="ui left floated primary button">Save</button>
+                <div class="ui green right floated buttons">
+                    <button id="addSemester" class="ui button"><i class="add square icon"></i>Add Semester</button>
+                    <div class="ui floating dropdown icon button">
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div id="addSummerSemesterA" class="item">Add Summer Semester A</div>
+                            <div id="addSummerSemesterB" class="item">Add Summer Semester B</div>
+                            <div id="addWinterSemester" class="item">Add Winter Semester</div>
+                            <div id="addFullYear" class="item">Add Full Year</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!--div id="main" end-->
+        </div>
+        <div style="height: 20%"></div> <!--this fills empty space-->
+        <div class="ui inverted fixed bottom vertical footer stackable segment">
+            <div class="ui center aligned container">
+                <h4 class="ui inverted header">monPlan</h4>
+                <p>A Monash University Course Planner, designed by Monash Students, for Monash Students.</p>
+                <p>This project is licensed under <strong>the MIT License</strong> by monPlan</p>
+                <p>Copyright &copy; monPlan 2016 | Copyright &copy; Monash University 2016</p>
+                    <img class="logo" src="./img/monash.png" alt="logo">
+            </div>
+        </div>
+
+
+        <div class="ui modal" id="termsOfUse">
+            <div class="header">
+                <i class="users icon"></i>
+                Terms of Use Agreement
+            </div>
+            <div class="content">
+                <div class="description">
+                    By using this site, you agree to the following:
+                    <ul>
+                        <li>The site's source code and the project are automatically bound by <strong>the MIT License</strong>, unless otherwise stated.
+                            <ul>
+                                <li>Copying the site's source code or code from the GitHub repository is a Federal Offence, all code and work is protected under the Australian Copyright Act 1966</li>
+                                <li>The following libraries used within this project are bound by other Licenses: Semantic UI</li>
+                            </ul>
+                        </li>
+                        <li>You acknowledge that your data is protected under our Privacy Policy, which may change from time to time.</li>
+                        <li>At this stage, this site is not endorsed by Monash University, we are in no way affiliated with Monash University's Administration Staff.</li>
+                        <li>This Terms of Use (ToS) agreement may change from time to time.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button" onClick="">
+                    OK
+                    <i class="checkmark icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui modal" id="privacy">
+            <div class="header">
+                <i class="privacy icon"></i>
+                Privacy Policy
+            </div>
+            <div class="content">
+                <div class="description">
+                  We do not record any data across our services.  Your data will be recorded and saved into your browser's cache for future performance, to improve user experience with our site.
+                  As our site is currently hosted by GitHub Pages, we (being monPlan) do not track your activity, but the organisation at times, may track your activities.
+                  Within our site to display data, we also honor Do Not Track (DNT) Plugins, no features will be disabled if your browser uses a DNT plugin.
+                  In future versions, if you are logged into our site, we will load data about your course via an API supplied by the University to help you plan out your degree and make sure you get the most out of your degree.
+                </div>
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button">
+                    OK, I've got it.
+                    <i class="checkmark icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui modal" id="unitDets">
+            <i class="close icon"></i>
+            <div class="header">
+                <i class="privacy icon"></i>
+                Selected Unit Details
+            </div>
+            <div class="content">
+                <div class="description">
+                    <h3 id="unitNameCode">unitNameCode</h3>
+
+                    <h4>Description</h4>
+                    <span id="unitDescription"></span>
+
+                    <h4>Unit Preqs</h4>
+                    <span id="unitPreqs"></span>
+
+                    <h4>Unit Prohitibions</h4>
+                    <span id="unitProhib"></span>
+                </div>
+            </div>
+            <div class="actions">
+              <div class="ui positive right labeled icon button">
+                  OK. Proceed to add unit.
+                  <i class="checkmark icon"></i>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>
